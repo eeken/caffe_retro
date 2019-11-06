@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.7);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-left: 40%;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    font-family: 'Spirax', cursive;
+    font-size: 40px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#firstp{
+    text-align: center;
+    color: white;
+    background-color:rgba(240, 25, 25, 0.7);
+    margin-left: 10%;
+    margin-right: 25%;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#secondp{
+    text-align: center;
+    color: white;
+    background-color:rgba(240, 25, 25, 0.7);
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 10%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#thirdp{
+    text-align: center;
+    color: white;
+    background-color:rgba(36, 30, 30, 0.7);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+    padding: 15px;
+    columns: 2;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+}
+
+h1 {
+    font-size: 150px;
+    margin: 0px;
+    font-family: 'Spirax', cursive;
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(161, 55, 55);
+}
+
+#first{
+    margin: 0px;
+    background-image: url("hot.jpg");
+    height: 100vh;
+    background-size: cover;
+  background-position: 50% 50%;
+  
+}
+
+#second{    
+    background-image: url("juicy.jpg");
+    height: 100vh;
+    background-size: cover;
+  background-position: 50% 50%;
+  margin: 0px;
+}
+
+#third{
+    background-image: url("cosy.jpg");
+    height: 100vh;
+    background-size: cover;
+  background-position: 50% 50%;
+}
